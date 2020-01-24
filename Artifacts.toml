@@ -1,0 +1,58 @@
+[[PYTHIA]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "de5480e55037aab19028d1a4a15b8e3dd5f7ed0d"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "5bdedeee84afdc128b9f3697dc00151a36771a7cf8d4f5fe6f7e8c88d4d50d76"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "42d7e11e4c898eba970f861a408414e755ece358"
+os = "macos"
+
+    [[PYTHIA.download]]
+    sha256 = "138d05d0db7ce594253da6341450859e94006a6dc49da2b211691b88f7195ce8"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "95b925962f42b078379f81b4140faf6872d36db6"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "13c691bd382fd32fff1fa054db47b58ade7d1c09a06db6ee772670f47115b2ac"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "76f3441cd5bdbc8cd614dd70944d50c5faa1f523"
+os = "macos"
+
+    [[PYTHIA.download]]
+    sha256 = "9c6b01f9aa2e5478d64c53a4316aa15fb2ca9eecbf5f490c13952884a6462143"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.x86_64-apple-darwin14-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1f177926102ee085fe53c910a58abbc67334ff4f"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "8f07807a319c76ef8718245be5cd1e8d885395ed8d8dace14b24584857959aa2"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "67aacb001215a16a5b5bff57262ef2ed9c3a3e03"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "4cf435491e679576ec7f5229c96c21ae56c2ca2b1e9f9c25cd73c2b0b9a432f3"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.244.0+0/PYTHIA.v8.244.0.x86_64-linux-gnu-cxx03.tar.gz"
