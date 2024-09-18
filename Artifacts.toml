@@ -1,48 +1,140 @@
 [[PYTHIA]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1aec8b9b210c563e75318c0d7598c142500d92f9"
-libc = "glibc"
-os = "linux"
-
-    [[PYTHIA.download]]
-    sha256 = "678f4d27b6db4ab280e0523ad9607f94414b8892c410b5efdc2b05d84c988d0b"
-    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.309.0+0/PYTHIA.v8.309.0.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[PYTHIA]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d92a36876d0bedfe3a0bb18637baeb44ebe31f4e"
-libc = "glibc"
-os = "linux"
-
-    [[PYTHIA.download]]
-    sha256 = "a78c971279db68fd34cd13e8f0fb93bed0400fc8babd9d0b0e80dfde58080c91"
-    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.309.0+0/PYTHIA.v8.309.0.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[PYTHIA]]
-arch = "x86_64"
-git-tree-sha1 = "38f79925e42e68238a96480c2810bcb5efefdebf"
+arch = "aarch64"
+git-tree-sha1 = "1efdb4b729131034a90e03a49327ea90a4bfb780"
 os = "macos"
 
     [[PYTHIA.download]]
-    sha256 = "f9e5dc1a0e35e06f2d8859e099801881a2faf736082507aed38f5791f4430ea1"
-    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.309.0+0/PYTHIA.v8.309.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "9169b33720bfa5c4c8d699342bd8b264ab3712bbe8257ece10f2bbf8fe6c1ee7"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.aarch64-apple-darwin.tar.gz"
+[[PYTHIA]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "72430bdb3bdbc6bc6659737e276baac12391a6e7"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "d549c38a0777cf6b571338d206de35888ff271d1a2f101028b4f3efa3eadc7cb"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b038152bf9e54560843b017d960f372bfa77a635"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "c1d8e816a8ed626470c6e4fabdee719613c356a34c25abfe559d2473684c1090"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "79fdea86eec982258cd71a84aa00c3c1955838b7"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "e069271a95eb1091273d85b1681af934ac4a79419841683063049e8db7769d93"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2ebe95ed2b9f9afcea0581087a88c0ab4f543f1f"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "1813f4d206afa86710b57cc97f4206d0c946a9e54b8daa30c72058dd03fc3138"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f1db9c3b7ec4fd53e3f788f79ddb4f48d7b5f884"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "6bbe4db88d8737620612bad5f7750f9493b8d272c80d52242fa28f8dbf2fa3f2"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c0f92a8ab5033d27cc5f9609d86c4056a018a35b"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "b47486d633fc77064af60998bd09912c4770d906b4b31ddc81e8f5e1b1e20792"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ba4255ee576fc977a0f2ceca507374b4665126ed"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "6735e9c98461650d16550caf811b45f722156a3f69c506621c1fee717d3d3a3b"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.i686-linux-gnu-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3a655345be1b20974c8dfd62a5f0a9a16773939c"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "cfdb91327046bd766825bd63725220c3edf946b7e7d0d741da96052a53695819"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.i686-linux-gnu-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f4e6661a664fc705d69134b91ce3b441a3d29a94"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "4039f2f5763ef310dcc890424183c5bc7152dda3faf00ec77954fc3a1413ce81"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[PYTHIA]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "38119318af442ec99f55f503b12ef8b2827d485a"
+libc = "glibc"
+os = "linux"
+
+    [[PYTHIA.download]]
+    sha256 = "8a54e2ecb93cb857fdca4ff94ad03cfc66982d46c6b2580107004340c5d4bedc"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[PYTHIA]]
+arch = "x86_64"
+git-tree-sha1 = "5d3a22d42a7794bef0bbc698bc4c87a953a4f58f"
+os = "macos"
+
+    [[PYTHIA.download]]
+    sha256 = "bee3a00bc4cb00aa3ce540f9a923624f5376ac17362bffb084dbe6a8f2f58d56"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.x86_64-apple-darwin.tar.gz"
 [[PYTHIA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "de28c18cba9e43e755e572514bf29d3f2b488b61"
+git-tree-sha1 = "80d40d128427fd685bba1b4255d0f04f279c92a1"
 libc = "glibc"
 os = "linux"
 
     [[PYTHIA.download]]
-    sha256 = "06532402b9424a3c2c90942595798b3e85f026f11dcafe097030412498a7cc8b"
-    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.309.0+0/PYTHIA.v8.309.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "6ee0de53972a7dd444bd81112c45052c17675304594a7614a561305183f1d2b8"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[PYTHIA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7f0dbff4b3c73998657abde11d51490c0dc9bcf0"
+git-tree-sha1 = "533d531c052fd57651df396d08f5fac3e0162d86"
 libc = "glibc"
 os = "linux"
 
     [[PYTHIA.download]]
-    sha256 = "b53573e9ede59aad8b4fab8a9b66240cc7257ac1ab3247580e52f03c2afa78e7"
-    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.309.0+0/PYTHIA.v8.309.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "00d4e4043ed96b56b187c88625892d7bc8198de5038a866213be4f23aa64df83"
+    url = "https://github.com/JuliaBinaryWrappers/PYTHIA_jll.jl/releases/download/PYTHIA-v8.312.0+0/PYTHIA.v8.312.0.x86_64-linux-gnu-cxx11.tar.gz"
